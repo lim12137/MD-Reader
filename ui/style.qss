@@ -1,0 +1,43 @@
+/* 现代化、扁平化风格样式表 */
+QMainWindow {
+    background-color: #f5f5f5;
+}
+
+QMenuBar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+QMenuBar::item {
+    padding: 8px 12px;
+    color: #333333;
+}
+
+QMenuBar::item:selected {
+    background-color: #e0e0e0;
+}
+
+QMenu {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+QMenu::item {
+    padding: 8px 25px;
+    color: #333333;
+}
+
+QMenu::item:selected {
+    background-color: #e0e0e0;
+}
+
+QStatusBar {
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
+    color: #555555;
+}
+
+QWebEngineView {
+    background-color: #ffffff;
+    border: none;
+}

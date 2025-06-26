@@ -1,0 +1,35 @@
+# Build outputs
+build/
+dist/
+
+# Virtual environment
+venv/
+.venv/
+
+# Data files 
+
+
+# Executables
+*.exe
+*.msi
+
+# PyInstaller
+*.spec
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
